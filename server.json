@@ -1,0 +1,23 @@
+{
+  "name": "uk-food-safety-mcp",
+  "display_name": "UK Food Safety MCP",
+  "description": "UK food safety and traceability via MCP -- direct sales, labelling, raw milk, assurance schemes, HACCP",
+  "version": "0.1.0",
+  "jurisdiction": "GB",
+  "category": "domain_intelligence",
+  "tools_count": 11,
+  "transport": {
+    "stdio": {
+      "command": "npx",
+      "args": ["-y", "@ansvar/uk-food-safety-mcp"]
+    },
+    "http": {
+      "url": "https://mcp.ansvar.eu/uk-food-safety/mcp"
+    }
+  },
+  "repository": "https://github.com/Ansvar-Systems/uk-food-safety-mcp",
+  "npm": "@ansvar/uk-food-safety-mcp",
+  "docker": "ghcr.io/ansvar-systems/uk-food-safety-mcp:latest",
+  "license": "Apache-2.0",
+  "data_license": "Open Government Licence v3"
+}

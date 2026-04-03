@@ -1,0 +1,118 @@
+schema_version: "1.0"
+mcp_name: "UK Food Safety MCP"
+category: "domain_intelligence"
+
+sources:
+  - name: "Food Standards Agency Guidance"
+    authority: "Food Standards Agency"
+    official_url: "https://www.food.gov.uk/"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACTION"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as_amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Food hygiene, registration, HACCP, direct sales, raw milk rules"
+      version: "current"
+      item_count: "~200 guidance documents"
+    languages:
+      - "en"
+
+  - name: "Food Standards Scotland"
+    authority: "Food Standards Scotland"
+    official_url: "https://www.foodstandards.gov.scot/"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACTION"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as_amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Scottish food safety regulations including raw milk ban"
+      version: "current"
+      item_count: "~50 guidance documents"
+    languages:
+      - "en"
+
+  - name: "Food Information Regulations 2014"
+    authority: "UK Government"
+    official_url: "https://www.legislation.gov.uk/uksi/2014/1855/contents"
+    api_url: null
+    retrieval_method: "LEGISLATION_EXTRACTION"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as_amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Labelling requirements for pre-packed and non-pre-packed food"
+      version: "current as amended"
+      item_count: "~40 articles"
+    languages:
+      - "en"
+
+  - name: "Food Safety and Hygiene (England) Regulations 2013"
+    authority: "UK Government"
+    official_url: "https://www.legislation.gov.uk/uksi/2013/2996/contents"
+    api_url: null
+    retrieval_method: "LEGISLATION_EXTRACTION"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as_amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Hygiene rules, registration, approval, raw milk, temperature controls"
+      version: "current as amended"
+      item_count: "~30 regulations and 6 schedules"
+    languages:
+      - "en"
+
+  - name: "The Honey (England) Regulations 2015"
+    authority: "UK Government"
+    official_url: "https://www.legislation.gov.uk/uksi/2015/1348/contents"
+    api_url: null
+    retrieval_method: "LEGISLATION_EXTRACTION"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as_amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Honey composition standards, labelling, and origin declarations"
+      version: "current"
+      item_count: "~15 regulations"
+    languages:
+      - "en"
+
+  - name: "Assurance Scheme Public Standards"
+    authority: "Various (Red Tractor, RSPCA Assured, Soil Association, SALSA, QMS)"
+    official_url: "https://redtractor.org.uk/"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACTION"
+    format: "HTML/PDF"
+    authentication: "none"
+    update_frequency: "annual"
+    license:
+      type: "Public information"
+      url: null
+      summary: "Publicly available scheme summaries and membership information"
+    coverage:
+      scope: "Standards summaries, audit frequency, cost indications for 5 UK farm assurance schemes"
+      version: "current"
+      item_count: "5 schemes"
+    languages:
+      - "en"

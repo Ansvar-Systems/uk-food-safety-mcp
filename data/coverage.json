@@ -1,0 +1,12 @@
+{
+  "mcp_name": "UK Food Safety MCP",
+  "jurisdiction": "GB",
+  "build_date": "2026-04-03",
+  "products": 16,
+  "product_requirements": 45,
+  "assurance_schemes": 5,
+  "hygiene_rules": 8,
+  "raw_milk_rules": 4,
+  "labelling_rules": 31,
+  "fts_entries": 22
+}
